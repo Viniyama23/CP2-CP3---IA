@@ -36,11 +36,11 @@ RTX 3060 Ti = arquitetura Ampere (compute 8.6), suporta bf16.
 ## 6. Como rodar
 ```bash
 python -m venv .venv && .venv\Scripts\activate        # Windows
-python src/check_gpu.py
-python src/make_dataset.py
-python src/train.py --out outputs/run1                # ~10-20 min na 3060 Ti
-python src/evaluate.py --adapter outputs/run1
-python src/app.py --adapter outputs/run1              # frontend em http://127.0.0.1:7860
+python check_gpu.py
+python make_dataset.py
+python train.py --out outputs/run1                # ~10-20 min na 3060 Ti
+python evaluate.py --adapter outputs/run1
+python app.py --adapter outputs/run1              # frontend em http://127.0.0.1:7860
 ```
 Se faltar memória: reduza `per_device_train_batch_size` para 2 em `train.py`.
 
