@@ -1,0 +1,2 @@
+{"run": "outputs/run1", "lr": 0.0002, "lora_r": 16, "epochs": 3, "eval_loss": 0.3615, "train_seconds": 53, "peak_vram_gb": 3.47}
+{"run": "outputs/run_default", "lr": 0.0002, "lora_r": 16, "epochs": 3, "eval_loss": 0.3562, "train_seconds": 53, "peak_vram_gb": 3.47}

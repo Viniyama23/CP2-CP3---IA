@@ -1,0 +1,16 @@
+Seu problema,Usar modelo ajustado (desmarque p/ base),temperature,top_p,max_new_tokens,Resposta,timestamp
+Me de um passo a passo de como restaurar um pc windows 11 de fábrica,true,0.3,0.9,300,"1. Desative todas as máquinas virtuais e remova o disco do mapeamento.
+2. Instale o Windows 11 da Microsoft e salve uma cópia de segurança.
+3. Rode `diskpart` na CLI e escolha 'Reiniciar' para limpar o disco.
+4. Mova os dados importantes para um disco externo ou para a nuvem.
+5. Reinicie e use o mapeamento do disco original até que o Windows 11 se instale.",2026-10-06 14:22:13.742889
+Meu e-mail está falhando,true,0.3,0.9,300,"1. Confirme que o cabo/wireless/módulo correto está conectado.
+2. Desative e reinicie o cliente da Internet.
+3. Rode `ipconfig /release` e `ipconfig /renew` no CMD.
+4. Teste `ping 8.8.8.8`: se responder, o problema não é a internet; caso negativo, o problema é DNS. Use 8.8.8.8 como DNS e verifique novamente.
+5. Se persistir, abra chamado informando o resultado do ping.",2026-10-06 14:26:05.648517
+Meu e-mail está falhando,true,0.3,0.9,300,"1. Confirme que o cabo/wireless/módulo correto está conectado.
+2. Desative e reinicie o cliente da Internet.
+3. Rode `ipconfig /release` e `ipconfig /renew` no CMD.
+4. Teste `ping 8.8.8.8`: se responder, o problema não é a internet; caso negativo, o problema é DNS. Use 8.8.8.8 como DNS e verifique novamente.
+5. Se persistir, abra chamado informando o resultado do ping.",2026-10-06 14:26:11.577573
