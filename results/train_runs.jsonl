@@ -1,2 +1,5 @@
 {"run": "outputs/run1", "lr": 0.0002, "lora_r": 16, "epochs": 3, "eval_loss": 0.3615, "train_seconds": 53, "peak_vram_gb": 3.47}
 {"run": "outputs/run_default", "lr": 0.0002, "lora_r": 16, "epochs": 3, "eval_loss": 0.3562, "train_seconds": 53, "peak_vram_gb": 3.47}
+{"run": "outputs/lr1e-4_r8", "lr": 0.0001, "lora_r": 8, "epochs": 3, "eval_loss": 1.4893, "train_seconds": 52, "peak_vram_gb": 3.41}
+{"run": "outputs/lr1e-4_r16", "lr": 0.0001, "lora_r": 16, "epochs": 3, "eval_loss": 1.0647, "train_seconds": 52, "peak_vram_gb": 3.47}
+{"run": "outputs/lr2e-4_r8", "lr": 0.0002, "lora_r": 8, "epochs": 3, "eval_loss": 0.8558, "train_seconds": 52, "peak_vram_gb": 3.41}
