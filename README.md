@@ -1,6 +1,10 @@
 # CP2/CP3 — LLM local para Suporte de TI (Helpdesk) com fine-tuning na GPU
 
-**Grupo:** _(nomes)_ | **Entrega:** 15/10/2026 | **GPU:** NVIDIA RTX 3060 Ti 8 GB (ASUS)
+**Grupo:** _(Vinicius Yamashita - 550908 | 
+Guilherme Daher - 98611 | 
+Gabriel Freitas - 550187 | 
+Heitor Nobre - 551539 | 
+Lucca Alexandre - 99700)_  **Entrega:** 15/10/2026 | **GPU:** NVIDIA RTX 3060 Ti 8 GB (ASUS)
 
 ## 1. Modelo escolhido
 **Qwen2.5-1.5B-Instruct** (Alibaba, licença Apache-2.0). Motivos: bom em português, pequeno o bastante para ajustar com **QLoRA 4-bit em 8 GB de VRAM**, e vem com *chat template*.
